@@ -11,11 +11,11 @@ The evaluation is based on the Individual Causal Concept Effect (ICaCE), wich qu
 ## Data Generation Approach
 To analyze these causal relationships effectively, we designed a synthetic dataset. This dataset was constructed using a meticulously planned five-step approach, which includes defining the relevant aspects and generating textual representations based on the relationships between these aspects.
 
-- ##### 1. Causal Graph Construction
-- ##### 2. Aspect Value Sampling
-- ##### 3. Human-like Template Direction
-- ##### 4. Persona Direction
-- ##### 5. Text and Counterfactual (CF) Generation
+- ##### Causal Graph Construction
+- ##### Aspect Value Sampling
+- ##### Human-like Template Direction
+- ##### Persona Direction
+- ##### Text and Counterfactual (CF) Generation
 
 ## Evaluation Pipeline
 Once the dataset was created, we trained three different models—OV, CB, and CW—on the task of resume screening. These models were then evaluated based on their ability to capture causal relationships using ICaCE. The average treatment effect (ATE) was calculated for each aspect change, and bootstrap methods were used to assess the reliability of our ATE estimates.
