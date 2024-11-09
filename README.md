@@ -6,7 +6,7 @@
 
 The goal of this project is to evaluate the causal learning capabilities of large language models (LLMs) in understanding and capturing the relationships between various factors that influence outcomes. Specifically, we want to determine if models trained on a specific task can implicitly learn the causal effects of these factors. To achieve this, we developed a controlled synthetic dataset focused on resume screening, aiming to explore how models perceive the influence of demographic and professional variables in hiring decisions, wich quantifies how much a change in a specific concept (e.g., gender) affects a model's predictions, helping us assess a model's causal understanding.
 
-The evaluation is based on the Individual Causal Concept Effect (ICaCE), wich quantifies how much a change in a specific concept (e.g., gender) affects a model's predictions, helping us assess a model's causal understanding.
+The evaluation is based on the Individual Causal Concept Effect (ICaCE), which quantifies how much a change in a specific concept (e.g., gender) affects a model's predictions, helping us assess a model's causal understanding.
 
 ## Data Generation Approach
 To analyze these causal relationships effectively, we designed a synthetic dataset. This dataset was constructed using a meticulously planned five-step approach, which includes defining the relevant aspects and generating textual representations based on the relationships between these aspects.
